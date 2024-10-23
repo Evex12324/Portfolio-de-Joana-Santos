@@ -1,0 +1,57 @@
+@media(min-width: 426px) {
+    
+    nav ul {
+        max-width: 350px;
+    }
+
+    nav ul li:last-child {
+        width: 40%; 
+    }
+    
+}
+
+@media(max-width: 425px) {
+    
+    main {
+        height: 100%;
+    }
+
+    section {
+        display: line;
+        margin: 0 25px;
+    }
+    
+    nav ul {
+        margin: 30px 0;
+    }
+
+    .responsive {
+        display: block;
+        height: 350px;
+        margin: auto auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .fraco {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .botoes {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    footer {
+        font-size: 1.16rem;
+    }
+
+}

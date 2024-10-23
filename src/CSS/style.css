@@ -1,0 +1,156 @@
+:root {
+    --fundo: #212121;
+    --semi_tecla: #323232;
+    --destaque: #14FFEC;
+    --simples: #F6E7D8;
+    --titulo: "Krona One", sans-serif;
+    --paragrafo: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--fundo);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--semi_tecla);
+    border-radius: 6px;
+}
+
+body {
+    background-color: var(--fundo);
+    font-family: var(--paragrafo);
+    color: var(--simples);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 115vh;
+}
+
+.Lorem {
+    height: 135vh;
+}
+
+section {
+    max-width: 450px;
+    display: grid;
+    gap: 35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+nav ul li a {
+    line-height: 30px;
+
+    color: var(--destaque);
+    font-size: 1rem;
+    font-family: var(--titulo);
+
+    transition: 0.2s;
+}
+
+nav ul li a:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover {
+    color: var(--simples);
+    font-size: 1.2rem;
+}
+
+.responsive {
+    display: none;
+}
+
+h1 {
+    font-size: 1.7rem; 
+    font-family: var(--titulo);
+}
+
+h1 strong {
+    color: var(--destaque);
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.fraco {
+    opacity: 0.7;
+}
+
+.botoes {
+    text-align: center;
+    display: grid;
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.botoes p {
+    font-family: var(--titulo);
+    font-size: 1rem;
+}
+
+.botoes a {
+    font-size: 1.26rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 45px;
+    color: var(--simples);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    background-color: var(--semi_tecla);
+    width: 100%;
+
+    border: 2px solid var(--destaque);
+    border-radius: 7px;
+
+    transition: 0.2s;
+}
+
+div a:hover {
+    background-color: var(--destaque);
+    color: var(--fundo);
+    font-size: 1.4rem;
+    transform: scale(1.07);
+}
+
+div a img {
+    height: 70%;
+    transition: 0.2s;
+}
+
+div a:hover img {
+    filter: invert(1) grayscale(1);
+}
+
+.imagem {
+    height: 65%;
+}
+
+.Lorem .imagem {
+    height: 54%;
+}
+
+footer {
+    text-align: center;
+    color: var(--fundo);
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--titulo);
+    line-height: 45px;
+    background-color: var(--destaque);
+}

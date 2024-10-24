@@ -16,12 +16,42 @@
         margin: 0 35px;
     }
 
+    .Lorem {
+        height: auto;
+    }
+    
+    .Lorem nav ul {
+        margin: 30px 0;
+        max-width: 100%;
+    }
+
+    .Lorem nav ul li:last-child {
+        width: auto; 
+    }
+
+    .Lorem p {
+        text-align: center;
+    }
+
+    .Lorem h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .Lorem .final {
+        margin-bottom: 30px;
+    }
+
+    .Lorem .imagem {
+        display: none;
+    }
+
 }
 
 @media(max-width: 800px) {
-    
+
     main {
-        height: 100%;
+        height: auto;
     }
 
     section {
@@ -49,7 +79,7 @@
     }
 
     .botoes {
-        width: 80%;
+        width: 85%;
         margin-bottom: 30px;
     }
 
